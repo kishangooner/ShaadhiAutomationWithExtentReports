@@ -1,0 +1,124 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 12,
+        "name": "Title of your scenario outline",
+        "description": "",
+        "id": "scenario-to-verify-the-mother-tongue-matches-the-community;title-of-your-scenario-outline;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 18208663800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Login into Shaadi.com page with \"MARATHI\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "MARATHI",
+                  "offset": 33
+                }
+              ],
+              "location": "ShaadiStepDefinition.i_am_on_the_page_on_URL(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 132287900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Verify that mother tongue matches the community",
+            "match": {
+              "location": "ShaadiStepDefinition.verify_the_mother_tongue()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@ShaadiFirstPage"
+          },
+          {
+            "line": 5,
+            "name": "@Community"
+          }
+        ]
+      },
+      {
+        "line": 13,
+        "name": "Title of your scenario outline",
+        "description": "",
+        "id": "scenario-to-verify-the-mother-tongue-matches-the-community;title-of-your-scenario-outline;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 15737954700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Login into Shaadi.com page with \"GUJARATHI\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "GUJARATHI",
+                  "offset": 33
+                }
+              ],
+              "location": "ShaadiStepDefinition.i_am_on_the_page_on_URL(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 75800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Verify that mother tongue matches the community",
+            "match": {
+              "location": "ShaadiStepDefinition.verify_the_mother_tongue()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@ShaadiFirstPage"
+          },
+          {
+            "line": 5,
+            "name": "@Community"
+          }
+        ]
+      }
+    ],
+    "name": "Scenario to verify the Mother tongue matches the community",
+    "description": "",
+    "id": "scenario-to-verify-the-mother-tongue-matches-the-community",
+    "keyword": "Feature",
+    "uri": "Shaadi.feature",
+    "tags": [
+      {
+        "line": 2,
+        "name": "@ShaadiFirstPage"
+      }
+    ]
+  }
+]
